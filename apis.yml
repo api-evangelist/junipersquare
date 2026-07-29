@@ -1,8 +1,30 @@
 aid: junipersquare
-name: Junipersquare
-description: Junipersquare is a company surfaced as a portfolio company of felicis and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Juniper Square
+description: >-
+  Juniper Square is a fund operating system for the private markets, used by
+  2,300+ general partners across private equity, venture capital, commercial
+  real estate, and private credit to raise capital, run fund administration and
+  fund accounting, and manage the LP experience. Its GPX platform unifies
+  investor data, fund accounting, payments, compliance, and reporting, and
+  exposes them through a developer API (broad read/write coverage delivered as a
+  developer-led engagement), pre-built connectors (HubSpot, Preqin, Outlook,
+  DocuSign, Yardi IM/Voyager, Lob), and Headless GPX — an MCP server that brings
+  the platform to any MCP-compatible AI client (Claude, Copilot, ChatGPT,
+  Gemini) with authentication, permissions, and audit inherited from the
+  customer's existing configuration.
 url: https://raw.githubusercontent.com/api-evangelist/junipersquare/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://assets.junipersquare.com/images/_1200x630_crop_center-center_82_none/share.png?v=1779402326
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +33,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-apis: []
+- Investment Management
+- Private Markets
+- Fund Administration
+- Fund Accounting
+- Commercial Real Estate
+- Private Equity
+- Investor Relations
+- API
+- MCP
+- Agentic AI
+apis:
+- name: Juniper Square Developer API
+  description: >-
+    Developer API with broad read and write coverage across the GPX platform —
+    investor data, fund accounting, payments, compliance, and reporting. Used to
+    sync investor and fund data into CRMs (Salesforce), push reporting into data
+    warehouses (Snowflake), build custom portals or internal tools, and connect
+    ERP/accounting systems. Delivered as a 2-4 week developer-led engagement; no
+    public OpenAPI or self-serve reference is published.
+  humanURL: https://www.junipersquare.com/platform/apis-and-integrations
+  baseURL: https://api.junipersquare.com
+  properties:
+  - type: MCPServer
+    url: mcp/junipersquare-mcp.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,3 +68,30 @@ maintainers:
 common:
 - type: Website
   url: https://junipersquare.com
+- type: DeveloperPortal
+  url: https://www.junipersquare.com/platform/apis-and-integrations
+- type: MCPServer
+  url: mcp/junipersquare-mcp.yml
+- type: TrustCenter
+  url: security/junipersquare-trust-center.yml
+- type: Compliance
+  url: https://trust.junipersquare.com/
+- type: DomainSecurity
+  url: security/junipersquare-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/junipersquare-lifecycle.yml
+- type: StatusPage
+  url: https://status.junipersquare.com/
+- type: Blog
+  url: https://www.junipersquare.com/blog
+- type: GitHubOrganization
+  url: https://github.com/junipersquare
+- type: Login
+  url: https://app.junipersquare.com/
+- type: PrivacyPolicy
+  url: https://www.junipersquare.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

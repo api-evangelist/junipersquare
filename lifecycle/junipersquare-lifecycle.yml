@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.junipersquare.com/
+summary: >-
+  Juniper Square publishes a public status page for platform uptime/incident
+  reporting. The developer API is delivered as a developer-led engagement rather
+  than a self-serve versioned public API, so no public versioning or deprecation
+  policy is published. No public SLA document was found.
+status_page: https://status.junipersquare.com/
+versioning:
+  scheme: unknown
+  notes: >-
+    Custom integrations on the developer API are a 2-4 week developer-led
+    engagement; no public versioning/deprecation policy or Sunset/Deprecation
+    header contract is documented.
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+references:
+- https://status.junipersquare.com/
+- https://www.junipersquare.com/platform/apis-and-integrations
