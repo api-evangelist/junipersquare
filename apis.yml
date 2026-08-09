@@ -1,17 +1,13 @@
 aid: junipersquare
 name: Juniper Square
-description: >-
-  Juniper Square is a fund operating system for the private markets, used by
-  2,300+ general partners across private equity, venture capital, commercial
-  real estate, and private credit to raise capital, run fund administration and
-  fund accounting, and manage the LP experience. Its GPX platform unifies
-  investor data, fund accounting, payments, compliance, and reporting, and
-  exposes them through a developer API (broad read/write coverage delivered as a
-  developer-led engagement), pre-built connectors (HubSpot, Preqin, Outlook,
-  DocuSign, Yardi IM/Voyager, Lob), and Headless GPX — an MCP server that brings
-  the platform to any MCP-compatible AI client (Claude, Copilot, ChatGPT,
-  Gemini) with authentication, permissions, and audit inherited from the
-  customer's existing configuration.
+description: Juniper Square is a fund operating system for the private markets, used by 2,300+ general
+  partners across private equity, venture capital, commercial real estate, and private credit to raise
+  capital, run fund administration and fund accounting, and manage the LP experience. Its GPX platform
+  unifies investor data, fund accounting, payments, compliance, and reporting, and exposes them through
+  a developer API (broad read/write coverage delivered as a developer-led engagement), pre-built connectors
+  (HubSpot, Preqin, Outlook, DocuSign, Yardi IM/Voyager, Lob), and Headless GPX — an MCP server that brings
+  the platform to any MCP-compatible AI client (Claude, Copilot, ChatGPT, Gemini) with authentication,
+  permissions, and audit inherited from the customer's existing configuration.
 url: https://raw.githubusercontent.com/api-evangelist/junipersquare/refs/heads/main/apis.yml
 accessModel:
   pricing: unknown
@@ -33,7 +29,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-08-08'
 tags:
 - Company
 - Investment Management
@@ -48,13 +44,11 @@ tags:
 - Agentic AI
 apis:
 - name: Juniper Square Developer API
-  description: >-
-    Developer API with broad read and write coverage across the GPX platform —
-    investor data, fund accounting, payments, compliance, and reporting. Used to
-    sync investor and fund data into CRMs (Salesforce), push reporting into data
-    warehouses (Snowflake), build custom portals or internal tools, and connect
-    ERP/accounting systems. Delivered as a 2-4 week developer-led engagement; no
-    public OpenAPI or self-serve reference is published.
+  description: Developer API with broad read and write coverage across the GPX platform — investor data,
+    fund accounting, payments, compliance, and reporting. Used to sync investor and fund data into CRMs
+    (Salesforce), push reporting into data warehouses (Snowflake), build custom portals or internal tools,
+    and connect ERP/accounting systems. Delivered as a 2-4 week developer-led engagement; no public OpenAPI
+    or self-serve reference is published.
   humanURL: https://www.junipersquare.com/platform/apis-and-integrations
   baseURL: https://api.junipersquare.com
   properties:
@@ -90,8 +84,20 @@ common:
   url: https://app.junipersquare.com/
 - type: PrivacyPolicy
   url: https://www.junipersquare.com/privacy-policy
+- type: Documentation
+  url: https://www.junipersquare.com/platform/apis-and-integrations
+- type: Support
+  url: https://support.junipersquare.com
+- type: TermsOfService
+  url: https://www.junipersquare.com/terms-of-use
+- type: Conformance
+  url: conformance/junipersquare-conformance.yml
+- type: LLMsTxt
+  url: llms/junipersquare-llms.txt
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-merged-from:
+- juniper-square
