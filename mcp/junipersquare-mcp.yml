@@ -4,35 +4,27 @@ status: announced
 status_raw: beta
 source: https://www.junipersquare.com/gpx/headless
 name: Headless GPX
-summary: >-
-  Headless GPX brings Juniper Square's GPX fund operating system to any
-  MCP-compatible AI client (Claude, Microsoft Copilot, ChatGPT, Gemini, or a
-  custom client). It gives agents real-time access to fund data, investor data,
-  and operations workflows, inheriting authentication, permissions, and audit
-  from the customer's existing Juniper Square configuration so every agent
-  operates inside the same trust boundary as the team.
+summary: Headless GPX brings Juniper Square's GPX fund operating system to any MCP-compatible AI client
+  (Claude, Microsoft Copilot, ChatGPT, Gemini, or a custom client). It gives agents real-time access to
+  fund data, investor data, and operations workflows, inheriting authentication, permissions, and audit
+  from the customer's existing Juniper Square configuration so every agent operates inside the same trust
+  boundary as the team.
 server:
   name: junipersquare-headless-gpx
   transport: http
   protocol: mcp
-  # No public hosted MCP endpoint URL is published; access is in limited beta and
-  # customers connect their MCP client using their Juniper Square credentials.
   url: null
 authentication:
   model: juniper-square-credentials
-  notes: >-
-    Inherits authentication, permissions, and audit from the customer's existing
-    Juniper Square configuration. Customers control what data each agent can see
-    and what actions it can take. No engineering required for the IR workflows
-    shipping at launch.
+  notes: Inherits authentication, permissions, and audit from the customer's existing Juniper Square configuration.
+    Customers control what data each agent can see and what actions it can take. No engineering required
+    for the IR workflows shipping at launch.
 clients:
 - Claude
 - Microsoft Copilot
 - ChatGPT
 - Gemini
 - Any MCP-compatible client
-# Marquee IR workflows available at beta launch (per the Headless GPX page). These
-# are documented capability areas, not verified tool/operation names.
 workflows:
 - investor relationships
 - prospects
@@ -48,3 +40,8 @@ references:
 - https://www.junipersquare.com/gpx/headless
 - https://www.junipersquare.com/news/headless-gpx
 - https://www.junipersquare.com/platform/apis-and-integrations
+deployment:
+  mode: remote
+  verified: searched
+  checked: '2026-08-12'
+  source: catalog MCP census
