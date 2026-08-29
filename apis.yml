@@ -9,6 +9,17 @@ description: Juniper Square is a fund operating system for the private markets, 
   the platform to any MCP-compatible AI client (Claude, Copilot, ChatGPT, Gemini) with authentication,
   permissions, and audit inherited from the customer's existing configuration.
 url: https://raw.githubusercontent.com/api-evangelist/junipersquare/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
