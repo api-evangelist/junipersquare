@@ -41,7 +41,9 @@ references:
 - https://www.junipersquare.com/news/headless-gpx
 - https://www.junipersquare.com/platform/apis-and-integrations
 deployment:
-  mode: remote
+  mode: none
   verified: searched
+  auth: unknown
+  note: Juniper Square announces Headless GPX as a hosted MCP server for its customers, but publishes no endpoint URL; api.junipersquare.com/mcp answered 403 to an anonymous probe (same as its control path), which proves nothing. Recorded as none until an endpoint is published.
   checked: '2026-08-12'
   source: catalog MCP census

@@ -1,14 +1,16 @@
 aid: junipersquare
+
 name: Juniper Square
-description: Juniper Square is a fund operating system for the private markets, used by 2,300+ general
-  partners across private equity, venture capital, commercial real estate, and private credit to raise
-  capital, run fund administration and fund accounting, and manage the LP experience. Its GPX platform
-  unifies investor data, fund accounting, payments, compliance, and reporting, and exposes them through
-  a developer API (broad read/write coverage delivered as a developer-led engagement), pre-built connectors
-  (HubSpot, Preqin, Outlook, DocuSign, Yardi IM/Voyager, Lob), and Headless GPX — an MCP server that brings
-  the platform to any MCP-compatible AI client (Claude, Copilot, ChatGPT, Gemini) with authentication,
+
+description: Juniper Square is a fund operating system for the private markets, used by 2,300+ general partners across private equity, venture
+  capital, commercial real estate, and private credit to raise capital, run fund administration and fund accounting, and manage the LP experience.
+  Its GPX platform unifies investor data, fund accounting, payments, compliance, and reporting, and exposes them through a developer API (broad
+  read/write coverage delivered as a developer-led engagement), pre-built connectors (HubSpot, Preqin, Outlook, DocuSign, Yardi IM/Voyager, Lob),
+  and Headless GPX — an MCP server that brings the platform to any MCP-compatible AI client (Claude, Copilot, ChatGPT, Gemini) with authentication,
   permissions, and audit inherited from the customer's existing configuration.
+
 url: https://raw.githubusercontent.com/api-evangelist/junipersquare/refs/heads/main/apis.yml
+
 deliveryModel:
   model: saas
   open_source: false
@@ -20,6 +22,7 @@ deliveryModel:
   - pricing
   generated: '2026-08-28'
   method: derived
+
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -31,16 +34,26 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+
 image: https://assets.junipersquare.com/images/_1200x630_crop_center-center_82_none/share.png?v=1779402326
+
 x-type: company
+
 x-source: vc-portfolio
+
 x-backed-by:
 - felicis
-x-tier: stub
-x-tier-reason: portfolio-lead
+
+x-tier: profiled
+
+x-tier-reason: enrichment pass 2026-10-20 (local-v5; was portfolio-lead)
+
 specificationVersion: '0.23'
+
 created: '2026-07-17'
+
 modified: '2026-08-08'
+
 tags:
 - Company
 - Investment Management
@@ -52,6 +65,7 @@ tags:
 - Investor Relations
 - MCP
 - AI Agents
+
 tags_raw:
 - Company
 - Investment Management
@@ -64,24 +78,28 @@ tags_raw:
 - API
 - MCP
 - Agentic AI
-apis:
-- name: Juniper Square Developer API
-  description: Developer API with broad read and write coverage across the GPX platform — investor data,
-    fund accounting, payments, compliance, and reporting. Used to sync investor and fund data into CRMs
-    (Salesforce), push reporting into data warehouses (Snowflake), build custom portals or internal tools,
-    and connect ERP/accounting systems. Delivered as a 2-4 week developer-led engagement; no public OpenAPI
-    or self-serve reference is published.
-  humanURL: https://www.junipersquare.com/platform/apis-and-integrations
-  baseURL: https://api.junipersquare.com
-  properties:
-  - type: MCPServer
-    url: mcp/junipersquare-mcp.yml
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: IntegrationEdges
+  url: integrations/junipersquare-integration-edges.yml
+- type: SecurityTxt
+  url: well-known/junipersquare-status-security.txt
+- type: WellKnown
+  url: well-known/junipersquare-well-known.yml
+- type: Hosts
+  url: hosts/junipersquare-hosts.yml
+- type: Vendors
+  url: vendors/junipersquare-vendors.yml
+- type: Newsroom
+  url: https://www.junipersquare.com/news/kudu
+- type: GettingStarted
+  url: https://www.junipersquare.com/investor-relations/investor-onboarding
 - type: Website
   url: https://junipersquare.com
 - type: DeveloperPortal
@@ -108,18 +126,57 @@ common:
   url: https://www.junipersquare.com/privacy-policy
 - type: Documentation
   url: https://www.junipersquare.com/platform/apis-and-integrations
-- type: Support
-  url: https://support.junipersquare.com
 - type: TermsOfService
   url: https://www.junipersquare.com/terms-of-use
 - type: Conformance
   url: conformance/junipersquare-conformance.yml
-- type: LLMsTxt
-  url: llms/junipersquare-llms.txt
-x-enrichment:
-  date: '2026-07-19'
-  status: backfilled
-  pass: local-v1
-  note: backfilled from .gitignore signal + verified work evidence
+
+apis:
+- name: Juniper Square Developer API
+  description: Developer API with broad read and write coverage across the GPX platform — investor data, fund accounting, payments, compliance,
+    and reporting. Used to sync investor and fund data into CRMs (Salesforce), push reporting into data warehouses (Snowflake), build custom portals
+    or internal tools, and connect ERP/accounting systems. Delivered as a 2-4 week developer-led engagement; no public OpenAPI or self-serve reference
+    is published.
+  humanURL: https://www.junipersquare.com/platform/apis-and-integrations
+  baseURL: https://api.junipersquare.com
+  properties:
+  - type: MCPServer
+    url: mcp/junipersquare-mcp.yml
+  aid: junipersquare:juniper-square-developer-api
+
+
 x-merged-from:
 - juniper-square
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  method: derived
+  generated: '2026-10-20'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - url: https://api.junipersquare.com/mcp
+    status: 403
+  - url: https://trust.junipersquare.com/api/mcp
+    status: 403
+  - url: https://status.junipersquare.com/mcp
+    status: 403
+  - url: https://junipersquare.com
+    status: 200
+x-enrichment:
+  date: '2026-10-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v5
+x-coverage:
+  state: gated
+  reason: customer-only-docs
+  detail: Juniper Square says its REST APIs and webhooks are built to OpenAPI and its Headless GPX MCP server is live, but neither a reference nor a spec is public; access comes through a 'Book an intro call' developer-led engagement and api.junipersquare.com answers 403 anonymously.
+  evidence:
+  - url: https://www.junipersquare.com/gpx/apis-and-integrations
+    status: 200
+  - url: https://api.junipersquare.com/openapi.json
+    status: 403
+  checked: '2026-10-20'

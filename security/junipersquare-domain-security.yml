@@ -1,4 +1,4 @@
-generated: '2026-07-19'
+generated: '2026-10-20'
 method: probed
 source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
 hosts:
@@ -7,7 +7,18 @@ hosts:
   tls_version: TLSv1.3
   cert_expires: Mar  4 23:59:59 2027 GMT
   hsts: true
-  hsts_max_age: 2592000
+  hsts_max_age: 31536000
+- host: www.junipersquare.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec 27 04:07:55 2026 GMT
+  hsts: true
+  hsts_max_age: 31536000
+- host: api.junipersquare.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec  7 04:03:38 2026 GMT
+  hsts: null
 domains:
 - domain: junipersquare.com
   dnssec: false

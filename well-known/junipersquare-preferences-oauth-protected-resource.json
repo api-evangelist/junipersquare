@@ -1,0 +1,1 @@
+{"resource":"https://preferences.junipersquare.com","authorization_servers":["https://preferences.junipersquare.com"],"scopes_supported":["mcp:tools:read","mcp:tools:execute","openid","email"],"bearer_methods_supported":["header"]}

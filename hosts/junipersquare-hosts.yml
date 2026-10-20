@@ -1,0 +1,144 @@
+generated: '2026-10-20'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 10
+  own: 9
+  other_domain: 0
+  platform: 1
+  roles:
+  - api
+  - identity
+  - other
+  - portal
+  - source
+  - status
+  - support
+  - website
+hosts:
+- host: api.junipersquare.com
+  found_by:
+  - apis[]
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types: []
+  serves:
+  - api
+  - api-gateway
+  vendor: aws-api-gateway
+  registrable_domain: junipersquare.com
+  role: api
+  relation: own
+- host: app.junipersquare.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - Login
+  serves: []
+  registrable_domain: junipersquare.com
+  role: identity
+  relation: own
+- host: assets.junipersquare.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: junipersquare.com
+  role: other
+  relation: own
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: junipersquare.com
+  found_by:
+  - pointer
+  - probed
+  - well-known
+  - vendor-detect
+  types:
+  - Website
+  serves:
+  - cdn
+  vendor: cloudflare
+  registrable_domain: junipersquare.com
+  role: website
+  relation: own
+- host: preferences.junipersquare.com
+  found_by:
+  - probed
+  - site-links
+  types: []
+  serves: []
+  registrable_domain: junipersquare.com
+  role: other
+  relation: own
+- host: status.junipersquare.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - StatusPage
+  serves: []
+  registrable_domain: junipersquare.com
+  role: status
+  relation: own
+- host: support.junipersquare.com
+  found_by:
+  - probed
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: junipersquare.com
+  role: support
+  relation: own
+- host: trust.junipersquare.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - Compliance
+  serves: []
+  platform: app.safebase.io
+  registrable_domain: junipersquare.com
+  role: other
+  relation: own
+- host: www.junipersquare.com
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  types:
+  - Newsroom
+  - GettingStarted
+  - DeveloperPortal
+  - Blog
+  - PrivacyPolicy
+  - Documentation
+  - TermsOfService
+  serves:
+  - docs
+  registrable_domain: junipersquare.com
+  role: portal
+  relation: own

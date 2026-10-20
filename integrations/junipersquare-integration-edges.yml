@@ -1,0 +1,70 @@
+generated: '2026-10-20'
+method: searched
+source:
+- https://www.junipersquare.com/gpx/apis-and-integrations
+- https://zapier.com/apps/junipersquare/integrations
+- https://zapier.com/apps/juniper-square/integrations
+- https://n8n.io/integrations/junipersquare/
+- https://composio.dev/toolkits/junipersquare
+- https://monid.ai/tools/junipersquare
+checked:
+- https://www.junipersquare.com/gpx/apis-and-integrations
+- https://zapier.com/apps/juniper-square/integrations
+- https://composio.dev/toolkits/junipersquare
+- https://monid.ai/tools/junipersquare
+- https://n8n.io/integrations/junipersquare/
+- https://zapier.com/apps/junipersquare/integrations
+summary: null
+marketplace_apps: []
+edges:
+- partner: null
+  type: claimed
+  direction: unknown
+  evidence: https://www.junipersquare.com/gpx/apis-and-integrations
+  partner_name: Microsoft Outlook
+- partner: null
+  type: claimed
+  direction: unknown
+  evidence: https://www.junipersquare.com/gpx/apis-and-integrations
+  partner_name: Google Workspace
+- partner: null
+  type: claimed
+  direction: unknown
+  evidence: https://www.junipersquare.com/gpx/apis-and-integrations
+  partner_name: Claude
+- partner: null
+  type: claimed
+  direction: unknown
+  evidence: https://www.junipersquare.com/gpx/apis-and-integrations
+  partner_name: Nasdaq eVestment Market Lens
+- partner: null
+  type: claimed
+  direction: unknown
+  evidence: https://www.junipersquare.com/gpx/apis-and-integrations
+  partner_name: Investran
+- partner: okta
+  type: claimed
+  direction: unknown
+  evidence: https://www.junipersquare.com/gpx/apis-and-integrations
+  partner_name: Okta
+- partner: null
+  type: claimed
+  direction: unknown
+  evidence: https://www.junipersquare.com/gpx/apis-and-integrations
+  partner_name: Microsoft Entra ID
+- partner: hubspot
+  type: claimed
+  direction: unknown
+  evidence: https://www.junipersquare.com/gpx/apis-and-integrations
+  partner_name: HubSpot
+- partner: null
+  type: claimed
+  direction: unknown
+  evidence: https://www.junipersquare.com/gpx/apis-and-integrations
+  partner_name: Preqin
+- partner: salesforce
+  type: claimed
+  direction: unknown
+  evidence: https://www.junipersquare.com/gpx/apis-and-integrations
+  partner_name: Salesforce
+templates: []
