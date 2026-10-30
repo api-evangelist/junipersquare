@@ -1,4 +1,4 @@
-# Junipersquare
+# Juniper Square
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,98 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Junipersquare is a company surfaced as a portfolio company of felicis and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Juniper Square is a fund operating system for the private markets, used by 2,300+ general partners across private equity, venture capital, commercial real estate, and private credit to raise capital, run fund administration and fund accounting, and manage the LP experience. Its GPX platform unifies investor data, fund accounting, payments, compliance, and reporting, and exposes them through a developer API (broad read/write coverage delivered as a developer-led engagement), pre-built connectors (HubSpot, Preqin, Outlook, DocuSign, Yardi IM/Voyager, Lob), and Headless GPX — an MCP server that brings the platform to any MCP-compatible AI client (Claude, Copilot, ChatGPT, Gemini) with authentication, permissions, and audit inherited from the customer's existing configuration.
 
-Backed by: felicis — https://junipersquare.com
+**Areas:** Company · Investment Management · Private Markets · Fund Administration · Fund Accounting · Commercial Real Estate · Private Equity · Investor Relations · MCP · AI Agents
+
+## Juniper Square on APIs.io
+
+Everything profiled for Juniper Square is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/junipersquare/](https://apis.io/providers/junipersquare/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Juniper Square Developer API](https://apis.io/apis/junipersquare/juniper-square-developer-api/) — Developer API with broad read and write coverage across the GPX platform — investor data, fund accounting, payments, compliance, and reporting. Used to sync…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [junipersquare-headless-gpx](https://apis.io/servers/junipersquare/junipersquare-headless-gpx/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Junipersquare Domain Security](https://apis.io/security/junipersquare/junipersquare-domain-security/)
+- [Junipersquare Trust Center](https://apis.io/security/junipersquare/junipersquare-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://junipersquare.com)
+- [Documentation](https://www.junipersquare.com/platform/apis-and-integrations)
+- [Getting started](https://www.junipersquare.com/investor-relations/investor-onboarding)
+- [Blog](https://www.junipersquare.com/blog)
+- [Compliance](https://trust.junipersquare.com/)
+- [Terms of service](https://www.junipersquare.com/terms-of-use)
+- [Privacy policy](https://www.junipersquare.com/privacy-policy)
+- [GitHub](https://github.com/junipersquare)
+- [Status](https://status.junipersquare.com/)
+
+## API Evangelist rating
+
+**Kin Score 29.4** — thin · rubric 0.24.0 · scored 2026-10-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.3 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 43.4 |
+
+**Agent readiness 22.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/junipersquare/](https://apis.io/providers/junipersquare/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Juniper Square: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/junipersquare/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
