@@ -90,8 +90,8 @@ Model Context Protocol servers that expose the API to agents.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Junipersquare Domain Security](https://apis.io/security/junipersquare/junipersquare-domain-security/)
-- [Junipersquare Trust Center](https://apis.io/security/junipersquare/junipersquare-trust-center/)
+- [Juniper Square Domain Security](https://apis.io/security/junipersquare/junipersquare-domain-security/)
+- [Juniper Square Trust Center](https://apis.io/security/junipersquare/junipersquare-trust-center/)
 
 ## Where to find this API
 
@@ -109,14 +109,14 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 29.4** — thin · rubric 0.24.0 · scored 2026-10-20
+**Kin Score 30.8** — thin · rubric 0.25.0 · scored 2026-10-23
 
 | Facet | Score |
 |---|---|
 | Discoverability | 73.3 |
 | Contract quality | 0.0 |
 | Contract governance | 18.2 |
-| Operational transparency | 18.4 |
+| Operational transparency | 28.9 |
 | Developer ergonomics | 33.3 |
 | Access clarity | 43.4 |
 
@@ -143,6 +143,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | verified |
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
 
 **Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
 
